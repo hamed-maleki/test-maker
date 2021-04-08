@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $ : any;
 @Component({
   selector: 'app-test-create',
   templateUrl: './test-create.component.html',
@@ -12,6 +12,6 @@ export class TestCreateComponent implements OnInit {
   ngOnInit(): void {
   }
   deleteTest = function() {
-    // $("#deleteConfirm").modal();
+    $("#deleteConfirm").modal();
   }
 }

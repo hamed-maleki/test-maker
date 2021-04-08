@@ -12,6 +12,6 @@ export class TestCreateComponent implements OnInit {
   ngOnInit(): void {
   }
   deleteTest = function() {
-    $("#deleteConfirm").modal();
+    // $("#deleteConfirm").modal();
   }
 }
